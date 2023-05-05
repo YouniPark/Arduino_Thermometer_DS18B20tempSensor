@@ -21,3 +21,5 @@ Software used for the project
 - **Arduino IDE** for software development (C++).
 - **Autodesk Fusion 360** to design 3D-printable case of final prototype.
 - **KiCad** for a circuit schematic.
+## License
+The project is under the [MIT license](https://opensource.org/license/mit/).
