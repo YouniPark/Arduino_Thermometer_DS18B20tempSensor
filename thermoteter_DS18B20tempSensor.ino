@@ -17,10 +17,16 @@
 
 //Include the required Arduino libraries
 #include <DallasTemperature.h>
+//this library supports DS18B20,
+// documentation can be found in https://www.arduinolibraries.info/libraries/dallas-temperature
 
 #include <LiquidCrystal.h>
+//this library allows communication with LCDs.
+// documentation can be found in https://www.arduino.cc/reference/en/libraries/liquidcrystal/ 
 
 #include <OneWire.h>
+//this library allows the access to 1-wire temperature sensor
+// documentation can be found in https://www.arduinolibraries.info/libraries/one-wire 
 
 //Define to which pin of the Arduino the DQ pin is connected
 //DQ pin means data pin
@@ -84,5 +90,4 @@ void loop(void)
   Serial.println(tempC);
   //Wait for 1 second
   delay(2000);
-
-  //lcd.clear();
+}
